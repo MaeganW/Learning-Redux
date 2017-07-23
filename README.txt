@@ -112,13 +112,11 @@ export default connect(mapStateToProps)(BookList);
 
 
 
-
-
-
-
 ---- CONNECT FUNCTION ----
 
 The connect()() function takes a function and a component and produces a container
+
+export default connect(mapStateToProps)(BookList);
 
 
 

@@ -24,9 +24,7 @@ function mapStateToProps(state){
     //props inside of BookList
     //usually we return an object
     return {
-        //we want Harry Potter, etc.
-        //REMEMBER the value is the state
-        books: state.books;
+        books: state.books
     }
 }
 
