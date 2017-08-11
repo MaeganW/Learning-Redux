@@ -6,9 +6,9 @@ export default class App extends Component {
   render() {
     console.log(this.props.store);
     return (
-        <div>
-            <BookList />
-        </div>
+      <div>
+        <BookList />
+      </div>
     );
   }
 }
